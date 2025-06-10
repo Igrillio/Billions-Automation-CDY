@@ -372,12 +372,19 @@ class BillionsNetwork:
                             continue
 
                         exp_time = self.decode_session_id(session_id)
-                        if int(time.time()) > exp_time:
-                            self.log(
-                                f"{Fore.CYAN + Style.BRIGHT}Status  :{Style.RESET_ALL}"
-                                f"{Fore.RED + Style.BRIGHT} Session Id Already Expired {Style.RESET_ALL}"
-                            )
-                            continue
+if exp_time is None:
+    self.log(
+        f"{Fore.CYAN + Style.BRIGHT}Status  :{Style.RESET_ALL}"
+        f"{Fore.RED + Style.BRIGHT} Invalid or Unreadable Session ID Token {Style.RESET_ALL}"
+    )
+    continue
+
+if int(time.time()) > exp_time:
+    self.log(
+        f"{Fore.CYAN + Style.BRIGHT}Status  :{Style.RESET_ALL}"
+        f"{Fore.RED + Style.BRIGHT} Session Id Already Expired {Style.RESET_ALL}"
+    )
+    continue
                             
                         await self.process_accounts(session_id, use_proxy, rotate_proxy)
                         await asyncio.sleep(3)
