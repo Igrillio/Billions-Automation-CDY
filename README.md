@@ -6,7 +6,7 @@ Automate your **daily reward claiming** on Billions.Network using multiple accou
 
 ## 🔗 Register First
 
-* **Signup Link:** [Billions Network](https://signup.billions.network?rc=J3I4P2TG)
+* **Signup Link:** [Billions Network](https://signup.billions.network?rc=2V2A7DFC)
 * Signup using **Google Account**
 
 ---
@@ -77,11 +77,6 @@ http://user:pass@ip:port
 
 ---
 
-## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/c2032342-a0aa-4ed8-9abf-855ad42955ca)
-
----
-
 ## ▶️ Run The Bot
 
 ```bash
@@ -98,51 +93,8 @@ Follow on-screen questions:
 The bot will loop through all accounts, check status, and claim daily rewards.
 
 ---
-## Happy Farming! 🚀🌾
-
-*Brought to you by [CryptoDai3](https://t.me/cryptodai3) X [YetiDAO](https://t.me/YetiDAO)*
-
----
-
-## ☕ Buy Me a Coffee
-
-* **EVM:** `0x49bb35693e9631760d2f3519e7db1dd618580a6a`
-* **TON:** `UQDDYNRWZI12zMfXYBoy300ydECC5uouMUFLd_yZa6ZO4Jsm`
-* **SOL:** `2PhLDFnyX8whHDMBbfGSFoLnVEsei6TYxyiqpDzPGyT1`
-* **SUI:** `0xf3b008f8aac4b92195176aad27a892c565c216fd5c07bc99c70edb8394e23b59`
-
----
-
-## 🔒 Safety & Support
 
 ### ⚠️ Important Disclaimer
 
-* **Testnet Only** – This tool is designed for testnet environments only
-* **No Liability** – Use at your own risk. Developers assume no responsibility
 * **DYOR** – Always do your own research before using any automation tools
 
-### 🛡️ Security Best Practices
-
-* 🔐 Never use Main wallets
-* 🚫 Never expose sensitive credentials
-* 📜 Always review code before execution
-* 💸 Use burner wallets with test tokens only
-
----
-
-### 🙌 Support Our Work
-
-Love this tool? Help us improve:
-
-* ⭐ Star the repository
-* 🔗 Share with your farming community
-* 💎 Use our referral codes (where applicable)
-* 💡 Contribute ideas and code
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
----
